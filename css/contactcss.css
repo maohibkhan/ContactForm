@@ -1,0 +1,12 @@
+.formcss{
+    display: flex;
+    flex-direction: column;
+}
+
+form>input{
+    width: 100%;
+    padding: 6px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

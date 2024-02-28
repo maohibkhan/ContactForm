@@ -18,3 +18,10 @@ table, th, td {
     background-color: #96D4D4;
     padding: 8px;
   }
+.hello{
+  color: #6209f0;
+  border: 8px solid rgb(7, 4, 1);
+  padding: 10px 8px;
+}
+*hi{ color: black}
+  
