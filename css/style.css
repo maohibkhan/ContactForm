@@ -1,27 +1,29 @@
-h1{
-    color: aqua;
+.lorem{
+  color: aqua;
+background-color: black;
+padding: 2pc;
+margin: 8px 0 0;
+border: 2px solid cornflowerblue;
 }
-.herobrine{
-    color: white;
-}
-.header{
+table tr td{
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #96D4D4;
+  padding: 8px;
 
-color: #b60e0e;
-border: 8px solid peru;
-padding: 10px 8px;
 }
-table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-  }
-  th, td {
-    background-color: #96D4D4;
-    padding: 8px;
-  }
-.hello{
-  color: #6209f0;
-  border: 8px solid rgb(7, 4, 1);
-  padding: 10px 8px;
-}
-*hi{ color: black}
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 360px;
+  margin: 0 auto;
+  background-color: black;
   
+}
+
+.name{
+  padding-left: 12px;
+  margin-bottom: 5px;
+  
+}
