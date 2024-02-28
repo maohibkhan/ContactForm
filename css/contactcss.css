@@ -1,12 +1,47 @@
-.formcss{
-    display: flex;
-    flex-direction: column;
+body{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
 }
 
-form>input{
-    width: 100%;
-    padding: 6px;
-    margin: 4px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+h1{
+    color: rgb(28, 235, 38);
+    background-color: rosybrown;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+h2{
+    color: #175676;
+    background-color: salmon;
+}
+
+h3{
+    color: hsl(204, 73%, 37%);
+}
+
+h4{
+    color: rgb(255, 255, 255);
+}
+
+h5{
+    color: rgb(0, 0, 0);
+}
+
+h6{
+    color: #f2f3f5;
+}
+
+.addme{
+    color: brown;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.checkme{
+    color: red;
+    padding: 10px;
+    margin-left: 15px;
 }
