@@ -35,6 +35,18 @@ table tr td{
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 
-  
-  
+}
+.kiminonaya{
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+  outline-offset: 4px solid;
+
+}
+.helloworld{
+  background-color: cadetblue;
+  padding: 8px 10px;
+  margin: 10px;
+  border: 15px solid  aqua;
 }
