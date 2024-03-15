@@ -1,52 +1,74 @@
-.lorem{
+.p-tag {
   color: aqua;
-background-color: black;
-padding: 2pc;
-margin: 8px 0 0;
-border: 2px solid cornflowerblue;
+  text-align: center;
+  border: 15px rgb(60, 9, 245) solid;
+  border-radius: 10px;
+  background-color: black;
+  margin: 8px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
-table tr td{
+
+.table {
   border: 1px solid white;
   border-collapse: collapse;
-  background-color: #96D4D4;
   padding: 8px;
-
-}
-.form{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  width: 360px;
-  margin: 0 auto;
-  background-color: black;
-  
+  margin: 8px;
+  border-style: dotted;
+  width: 500px;
+  background-color: #ecdfdaf8;
 }
 
-.name{
-  padding-left: 12px;
-  margin-bottom: 5px;
-  
-}
-.pokemon{
-  background-color: rgb(15, 15, 15);
-  padding: 8px 10px;
-  margin: 10px;
-  border: 15px solid  aqua;
+.wepsite {
+  color: rgb(0, 153, 255);
+  text-align: center;
+  border: 8px rgb(72, 9, 245) solid;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: black;
+
+  margin: 8px;
+  padding: 10px;
 
 }
-.kiminonaya{
-  border: 1px solid black;
+
+.lorem {
+  color: crimson;
+  border: 10px coral solid;
+  margin: 8px;
+
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.thin {
+  border: 1px solid rgb(112, 3, 253);
   outline-style: solid;
   outline-color: red;
-  outline-width: 4px;
-  outline-offset: 4px solid;
-
+  outline-width: thick;
+  padding: 8px;
+  margin: 7px;
+  text-shadow: 3px 2px;
+  background-color: #4CAF50;
 }
-.helloworld{
-  background-color: cadetblue;
-  padding: 8px 10px;
-  margin: 10px;
-  border: 15px solid  aqua;
+
+.div1 {
+  border: 1px solid rgba(160, 99, 99, 0.986);
+  padding: 8px;
+  background-color: aqua;
+}
+
+.h11 {
+  text-align: center;
+  text-transform: lowercase;
+  color: #4CAF50;
+  text-shadow: 2px 2px 2px;
+}
+
+.p1 {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  text-shadow: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
