@@ -12,7 +12,7 @@
 
 .table {
   border: 8px solid white;
-  border-collapse: collapse;
+  border-collapse: collapse; 
   padding: 8px;
   margin: 8px;
   border-style: underline none !important;
@@ -118,7 +118,62 @@ body{
   color: aqua;
   
 }
-a{
-  text-decoration: underline none;
-  color: white !important;;
+
+ 
+.a-tag{
+  background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin: 8px;
 }
+
+.a-tag:hover{
+  color: rgb(11, 243, 243);
+}
+ 
+.a-tag:active{
+  color: rgb(58, 15, 214);
+}
+
+a:hover{
+  color: white;
+}
+.firstone{
+  color: brown;
+  border: 30px  solid white;
+  border-radius: 10px;
+  background: rgba(160, 108, 5, 0.925);
+  margin: 16px;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  list-style-position: outside;
+   list-style: square inside url(sqpurple.gif); 
+}
+.secondone{
+  color: rgb(42, 165, 79);
+    border: 30px solid white;
+    border-radius: 10px;
+    background: rgba(253, 81, 2, 0.397);
+    margin: 16px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+}
+.table1{
+border: 8px solid rgb(202, 19, 19);
+  border-collapse: collapse;
+  padding: 8px;
+  margin: 8px;
+  border-style: underline none !important;
+  width: 500px;
+  background-color: #58d307f8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  
+}
+
