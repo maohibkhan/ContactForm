@@ -10,18 +10,8 @@
 
 }
 
-.table {
-  border: 8px solid white;
-  border-collapse: collapse; 
-  padding: 8px;
-  margin: 8px;
-  border-style: underline none !important;
-  width: 500px; 
-  background-color: #6b3e3ef8;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  border-radius: 10px;
 
-}
+/* // the below code fragment can be found in: */
 
 .wepsite {
   color: rgb(0, 153, 255);
@@ -47,7 +37,7 @@
 .thin {
   border: 1px solid rgb(112, 3, 253);
   outline-style: solid;
-  outline-color: red;
+  outline-color: rgb(5, 5, 5);
   outline-width: thick;
   padding: 8px;
   margin: 7px;
@@ -56,7 +46,7 @@
 }
 
 .div1 {
-  border: 1px solid rgba(160, 99, 99, 0.986);
+  border: 10px solid rgba(160, 99, 99, 0.986);
   padding: 8px;
   background-color: aqua;
 }
@@ -163,17 +153,116 @@ a:hover{
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     list-style-position: inside;
+    
 }
-.table1{
-border: 8px solid rgb(202, 19, 19);
+table,tr,td {
+  border: 8px solid rgb(255, 0, 0);
   border-collapse: collapse;
   padding: 8px;
   margin: 8px;
   border-style: underline none !important;
   width: 500px;
-  background-color: #58d307f8;
+  background-color: #09ff00f8;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px; 
+  text-align: center;
+  
+   }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; }
+
+.table1{
+  border: 8px solid rgb(20, 20, 20);
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 8px;
+    border-style: underline none !important;
+    width: 500px;
+    background-color: #f8f3f8f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px; 
+
+}
+td:hover{
+  background-color: aliceblue;
+  color: rgb(255, 0, 0);
+  
+}
+
+
+th:hover{
+  color: aqua;
+}
+
+
+.tableHead{
+  background-color: rgb(50, 138, 130);
+  padding: 8px;
+  margin-left: 10px;
+
+}
+.raw:hover{
+  background:gray;
   border-radius: 10px;
+  margin: 8px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 8px solid rgb(20, 20, 20);
+  border-collapse: collapse;
+  padding: 8px;
+  color: cornflowerblue;
+  text-align: center;
+  text-decoration: solid;
+  
+}
+.cr:hover{
+color: rgb(0, 0, 0);
+border: solid 10px rgb(255, 0, 0) !important;
+
+}
+.cr{
+  color: #4CAF50;
+  border: solid 10px white !important;
+  background-color: brown !important;
+  max-width: 500px;
+}
+.static{
+  position: static;
+  border: 10px solid peachpuff;
+  background-color: aqua;
+}
+.relative{
+  position: relative;
+  border: 18px solid red;
+  background-color: gold; 
+  margin-top:  10px;
+  padding: 50px;
+}  
+/* .absolute{
+  position: absolute;
+    border: 18px solid blue;
+    background-color: rgb(0, 225, 255);
+    background-color: black;
+    margin-top: -50px;
+    padding: 50px;
+} */
+
+/* .fixed{
+  position: fixed;
+  border: 15px solid peru;
+  background-color: aliceblue;
+  bottom: 80px;
+  right: 50px;
+  padding: 50px; }  */
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  border: 10px solid gray;
+  background-color: rgb(21, 255, 0);
+  top: 0px;
   
 }
 
