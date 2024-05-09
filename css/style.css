@@ -11,9 +11,14 @@
 }
 
 
-/* // the below code fragment can be found in: */
+  
 
-.wepsite {
+
+body:hover{
+background-color: tomato;
+}
+
+/* .wepsite {
   color: rgb(0, 153, 255);
   text-align: center;
   border: 8px rgb(72, 9, 245) solid;
@@ -23,27 +28,28 @@
   margin: 8px;
   padding: 10px;
 
-}
+} */
 
-.lorem {
+/* .lorem {
   color: crimson;
   border: 10px coral solid;
   margin: 8px;
 
   padding: 10px;
   border-radius: 20px;
-}
+} */
 
-.thin {
-  border: 1px solid rgb(112, 3, 253);
+/* .thin {
+  border: 10px solid rgb(112, 3, 253);
   outline-style: solid;
   outline-color: rgb(5, 5, 5);
   outline-width: thick;
   padding: 8px;
   margin: 7px;
   text-shadow: 3px 2px;
-  background-color: #4CAF50;
-}
+  background-color: #58c25cad;
+  border-radius: 8px; } */
+
 
 .div1 {
   border: 10px solid rgba(160, 99, 99, 0.986);
@@ -65,11 +71,13 @@
   text-shadow: 4px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.fonts{
+/* .fonts{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
-  color: crimson;
-}
+  color: rgb(0, 225, 255);
+  border:15px rgb(60, 9, 245) solid;
+  background-color: black;
+} */
 .sofia{
   font-family: "Sofia",sans-serif;  
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -166,6 +174,7 @@ table,tr,td {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 10px; 
   text-align: center;
+
   
    }
   
@@ -173,23 +182,23 @@ table,tr,td {
     width: 100%;
     border-collapse: collapse; }
 
-.table1{
-  border: 8px solid rgb(20, 20, 20);
+ /* .table1{ 
+    border: 8px solid rgb(20, 20, 20);
     border-collapse: collapse;
     padding: 8px;
     margin: 8px;
     border-style: underline none !important;
-    width: 500px;
+    
     background-color: #f8f3f8f8;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px; 
 
-}
-td:hover{
+}  */
+ td:hover{
   background-color: aliceblue;
   color: rgb(255, 0, 0);
   
-}
+} 
 
 
 th:hover{
@@ -203,7 +212,8 @@ th:hover{
   margin-left: 10px;
 
 }
-.raw:hover{
+
+/* .raw:hover{
   background:gray;
   border-radius: 10px;
   margin: 8px;
@@ -216,17 +226,19 @@ th:hover{
   text-align: center;
   text-decoration: solid;
   
-}
+} */
 .cr:hover{
 color: rgb(0, 0, 0);
 border: solid 10px rgb(255, 0, 0) !important;
+ 
 
-}
+}     
 .cr{
   color: #4CAF50;
   border: solid 10px white !important;
   background-color: brown !important;
   max-width: 500px;
+  border-radius: 10px;
 }
 .static{
   position: static;
@@ -256,13 +268,28 @@ border: solid 10px rgb(255, 0, 0) !important;
   bottom: 80px;
   right: 50px;
   padding: 50px; }  */
-
-.sticky{
-  position: -webkit-sticky;
-  position: sticky;
-  border: 10px solid gray;
-  background-color: rgb(21, 255, 0);
-  top: 0px;
-  
+.overflowexample{
+  background-color: cornflowerblue;
+  color: white;
+  padding: 15px;
+  width: 60%;
+  height: 200px;
+  overflow: scroll;
+  border: 10px solid #ccc;
 }
+.guyz1{
+  
+  padding: 20px;
+  margin: 8px;
+  width: 200px;
+  border: 11px solid red;
+  color: gold;
+  background-color: aquamarine;
+  overflow: scroll;
+  border-radius: 10px;
+  float: right;
+  clear: none;
+}
+  
+
 

@@ -1,0 +1,94 @@
+.intro{
+    border: 8px solid teal;
+    color: aqua;
+    background-color: tomato;
+    padding: 9px;
+    margin: 9px;
+}
+body{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}
+body:hover{
+    background-color: peachpuff;
+}
+.overflow{
+    overflow: scroll;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: darkolivegreen;
+    border: 10px solid white;
+}
+.secondone {
+    color: rgb(42, 165, 79);
+    border: 30px solid white;
+    border-radius: 10px;
+    background: rgba(253, 81, 2, 0.397);
+    margin: 16px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+}
+.firstone {
+    color: brown;
+    border: 30px solid white;
+    border-radius: 10px;
+    background: rgba(160, 108, 5, 0.925);
+    margin: 16px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-position: outside;
+    list-style: square inside url(sqpurple.gif);
+}
+.static {
+    position: static;
+    border: 10px solid teal;
+    background-color: aqua;
+}
+.relative {
+    position: relative;
+    border: 18px solid red;
+    background-color: gold;
+    margin-top: 10px;
+    padding: 50px;
+}
+.table{
+    width: 100%;
+
+}
+table,th,td{
+    border: 10px solid wheat;
+    color:aqua;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+}
+/* .blo{
+    float: left;
+    padding: 20px;
+}
+.da{
+    background-color: rgb(253, 229, 8);
+}
+.ma{
+    background-color: red;
+}
+.ru{
+    background-color: blue;
+} */
+.w1{
+
+    float: left;
+    background-color: gold;
+    color: aqua;
+    border: 10px solid red;
+}
+.q1{
+    
+    background-color:rgb(1, 170, 182);
+    border: 10px solid rgb(243, 222, 31);
+    color: rgb(255, 0, 0);
+    clear: left;
+}
+       
